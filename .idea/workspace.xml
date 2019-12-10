@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="274">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -153,11 +153,6 @@
             <path>
               <item name="TitleRank" type="b2602c69:ProjectViewProjectNode" />
               <item name="TitleRank" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TitleRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TitleRank" type="462c0819:PsiDirectoryNode" />
               <item name="TitleRank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -263,17 +258,17 @@
       <workItem from="1575876335094" duration="8453000" />
       <workItem from="1575942726116" duration="1412000" />
       <workItem from="1575944210926" duration="1078000" />
-      <workItem from="1575945990515" duration="6237000" />
+      <workItem from="1575945990515" duration="6479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32098000" />
+    <option name="totallyTimeSpent" value="32340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -287,7 +282,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32907802" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.32907802" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49928468" visible="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49928468" weight="0.32907802" />
       <window_info anchor="bottom" id="Jupyter" order="13" weight="0.32907802" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -371,8 +366,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="274">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="47" />
         </state>
       </provider>
     </entry>
