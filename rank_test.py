@@ -153,6 +153,6 @@ title_list = ['奔腾重现江湖，而英特尔的“芯事”却不再奔腾',
 # print(test.compute_sentence_sim(a, b))
 # size = test.compute_common_chars(a,b)
 # print(size/len(a))
-df , df_lists= test.wordvec_sim_rank(title_list,theta=0.8)
-print(df.sort_values(by="score",ascending=False))
+# df , df_lists= test.wordvec_sim_rank(title_list,theta=0.8)
+# print(df.sort_values(by="score",ascending=False))
 # df_sort = df.sort_values(by="score",ascending=False)

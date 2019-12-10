@@ -23,19 +23,28 @@ import os
 
 from TitleRank.utils.textprocess import stopwordsdict
 from TitleRank.utils.textprocess import remove_stopwords
-current_path = os.path.dirname(__file__)
 
+current_path = os.path.dirname(os.path.abspath(__file__))
 
 class TitleRank():
-    def __init__(self, stopwords_path=os.path.join(current_path, 'data/stopwords.txt'), userstopwords_path=os.path.join(current_path,'data/user_stopwords.txt')):
+    def __init__(self, stopwords_path=os.path.join(current_path,'data/stopwords.txt'), userstopwords_path=os.path.join(current_path, 'data/user_stopwords.txt')):
         #导入停用词
-        STOPWORDS = set(map(str.strip, open(stopwords_path).readlines()))
-        self.stopwords = set(STOPWORDS)
+        print(stopwords_path)
+        if not os.path.isfile(stopwords_path):
+            raise Exception("stopwords.txt: file does not exist: " + stopwords_path)
+        self.stopwords = set(map(str.strip, open(stopwords_path).readlines()))
         self.title_list=[]
         self.sp = spm.SentencePieceProcessor()
-        self.sp.load(os.path.join(current_path, 'models/news_title_8w.model'))
-        self.sp_emb = self.load_models(os.path.join(current_path, "embeddings/sp_title.emb"))
+        sp_path = os.path.join(current_path, 'models/news_title_8w.model')
+        if not os.path.isfile(sp_path):
+            raise Exception("news_title_8w.model: file does not exist: " + sp_path)
+        self.sp.load(sp_path)
+        sp_model_path = os.path.join(current_path, "embeddings/sp_title.emb")
+        self.sp_emb = self.load_models(sp_model_path)
+
         self.word_vocab_set = set(self.sp_emb.wv.vocab)
+        if not os.path.isfile(userstopwords_path):
+            raise Exception("userstopwords.txt: file does not exist: " + userstopwords_path)
         self.user_stopwords = stopwordsdict(userstopwords_path)
 
     def compute_common_chars(self, a, b):

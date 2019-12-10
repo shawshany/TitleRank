@@ -16,7 +16,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="TitleRank", # Replace with your own username
-    version="0.0.2",
+    version="0.0.7",
     author="OraYang",
     author_email="victor.xsyang@gmail.com",
     description="A small example package",

@@ -9,7 +9,7 @@
 # @Software: PyCharm
 # @Description: 
 #Reference:**********************************************
-def stopwordsdict(filepath):
+def stopwordsdict(filepath='TitleRank/data/user_stopwords.txt'):
     '''
 
     :param filepath: 用户指定停用词路径
