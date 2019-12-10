@@ -16,14 +16,19 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="TitleRank", # Replace with your own username
-    version="0.0.7",
+    # packages = ['TitleRank'],
+    # package_dir={'TitleRank': 'TitleRank'},
+    # package_data={'TitleRank': ['data/*','embedding/*','models/*']},
+    # include_package_data=True,
+    version="0.1.0",
     author="OraYang",
     author_email="victor.xsyang@gmail.com",
     description="A small example package",
     long_description=long_description,
+    packages=setuptools.find_packages(),
+
     long_description_content_type="text/markdown",
     url="https://github.com/shawshany/TitleRank",
-    packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
