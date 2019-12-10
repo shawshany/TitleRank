@@ -1,0 +1,7 @@
+numpy
+pandas
+jieba
+sklearn
+wordcloud
+sentencepiece
+gensim

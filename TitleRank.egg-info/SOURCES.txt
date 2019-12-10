@@ -1,0 +1,10 @@
+README.md
+setup.py
+TitleRank/TitleRank.py
+TitleRank/__init__.py
+TitleRank.egg-info/PKG-INFO
+TitleRank.egg-info/SOURCES.txt
+TitleRank.egg-info/dependency_links.txt
+TitleRank.egg-info/top_level.txt
+TitleRank/utils/__init__.py
+TitleRank/utils/textprocess.py
